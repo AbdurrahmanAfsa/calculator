@@ -35,6 +35,10 @@ body{
     align-items: center;
 }
 
+.numbers{
+    padding-right: 10px;
+}
+
 .clearDelete > button{
     padding: 10px 30px;
 }
