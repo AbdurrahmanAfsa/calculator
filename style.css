@@ -17,3 +17,10 @@ body{
     flex-direction: column;
     gap: 20px;
 }
+
+.display{
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
+    align-self: center;
+}
