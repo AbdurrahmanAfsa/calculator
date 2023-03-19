@@ -39,6 +39,10 @@ body{
     background-color: #EE9999;
 }
 
+#delete{
+    background-color: #9999EE;
+}
+
 .clearDelete{
     display: flex;
     gap: 10px;
