@@ -28,3 +28,8 @@ body{
 .clearDelete > button{
     padding: 10px 30px;
 }
+
+.clearDelete{
+    display: flex;
+    gap: 10px;
+}
