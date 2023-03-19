@@ -16,6 +16,10 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    background-color: #AAAAAA;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .display{
