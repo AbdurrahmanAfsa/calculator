@@ -24,3 +24,7 @@ body{
     border: 2px solid black;
     align-self: center;
 }
+
+.clearDelete > button{
+    padding: 10px 30px;
+}
