@@ -35,6 +35,10 @@ body{
     padding: 10px 30px;
 }
 
+#clear{
+    background-color: #EE9999;
+}
+
 .clearDelete{
     display: flex;
     gap: 10px;
