@@ -19,3 +19,7 @@ const equal = document.querySelector('#equal');
 const numberDisplay = document.querySelector('.numbers')
 
 const clear = document.querySelector('#clear');
+
+clear.addEventListener('click' , () => {
+    numberDisplay.textContent = "";
+})
