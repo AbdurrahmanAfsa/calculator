@@ -15,3 +15,7 @@ const add = document.querySelector('#sum');
 const divi = document.querySelector('#divide');
 const sub = document.querySelector('#subtract');
 const equal = document.querySelector('#equal');
+
+const numberDisplay = document.querySelector('.numbers')
+
+const clear = document.querySelector('#clear');
