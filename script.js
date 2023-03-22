@@ -9,3 +9,9 @@ const eight = document.querySelector('#eight');
 const nine = document.querySelector('#nine');
 const zero = document.querySelector('#zero');
 const decimal = document.querySelector('#decimal');
+
+const multi = document.querySelector('#multiply');
+const add = document.querySelector('#sum');
+const divi = document.querySelector('#divide');
+const sub = document.querySelector('#subtract');
+const equal = document.querySelector('#equal');
