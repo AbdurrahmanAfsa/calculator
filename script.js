@@ -73,3 +73,21 @@ function multiply(number1 , number2){
 function divide(number1 , number2){
     return number1 / number2;
 }
+
+function operate (operator , first , second){
+    if(operator == "+"){
+        return parseInt(first) + parseInt(second);
+    }else if(operator == "-"){
+        return subtract(first , second);
+    }else if(operator == "*"){
+        return multiply(first , second);
+    }else if(operator == "/"){
+        if (second == 0){
+            return "Can't divide by zero"
+        }else{
+            return divide(first , second);
+        }
+    }else{
+        return "Not a featured operator"
+    }
+}
