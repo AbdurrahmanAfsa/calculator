@@ -93,3 +93,27 @@ function operate (operator , first , second){
         return "Not a featured operator"
     }
 }
+
+add.addEventListener('click' , ()=>{
+    first = numberDisplay.textContent;
+    sign = "+"
+    numberDisplay.textContent = ""
+})
+
+sub.addEventListener('click' , ()=>{
+    first = numberDisplay.textContent;
+    sign = "-"
+    numberDisplay.textContent = ""
+})
+
+multi.addEventListener('click' , ()=>{
+    first = numberDisplay.textContent;
+    sign = "*"
+    numberDisplay.textContent = ""
+})
+
+divi.addEventListener('click' , ()=>{
+    first = numberDisplay.textContent;
+    sign = "/"
+    numberDisplay.textContent = ""
+})
