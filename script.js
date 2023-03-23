@@ -117,3 +117,8 @@ divi.addEventListener('click' , ()=>{
     sign = "/"
     numberDisplay.textContent = ""
 })
+
+equal.addEventListener('click' , ()=>{
+    second = numberDisplay.textContent;
+    numberDisplay.textContent = operate(sign ,first ,second);
+})
